@@ -9,4 +9,5 @@ RUN apt-get update && apt-get install -y \
     sshpass
 
 # Code file to execute when the docker container starts up (`entrypoint.sh`)
+RUN ["chmod", "+x", "/entrypoint.sh"]
 ENTRYPOINT ["/entrypoint.sh"]
