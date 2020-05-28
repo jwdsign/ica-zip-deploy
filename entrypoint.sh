@@ -32,4 +32,4 @@ sshpass -p $DEPLOY_PASSWORD ssh ${DEPLOY_USERNAME}@${TARGET_SERVER} bash -c "'
 
 ${EXTRA_COMMANDS}
 '"
-echo "Deploy completed"
+echo "Deploy completed" 
