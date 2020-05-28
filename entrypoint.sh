@@ -13,9 +13,6 @@ mkdir -p $M_FOLDER_NAME
 
 echo "Moving all files to wrapper directory..."
 
-rm -r src
-rm *.json
-rm webpack.config.js
 mv * $M_FOLDER_NAME/
 mv $M_FOLDER_NAME $M_FOLDER_NAME
 
